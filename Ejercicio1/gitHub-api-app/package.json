@@ -1,0 +1,15 @@
+{
+  "name": "github-api-app",
+  "version": "1.0.0",
+  "description": "Aplicacion nodejs que muestra los 10 repositorios de GitHub mas populares del usuario \"google\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./api/index.js"
+  },
+  "author": "Maria Natalia Benavides Sanabria",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2"
+  }
+}
